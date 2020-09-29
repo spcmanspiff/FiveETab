@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,18 @@
 		8F5A85A0241A9C1800ED6764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5A859F241A9C1800ED6764 /* Assets.xcassets */; };
 		8F5A85A3241A9C1800ED6764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5A85A2241A9C1800ED6764 /* Preview Assets.xcassets */; };
 		8F5A85A6241A9C1800ED6764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5A85A4241A9C1800ED6764 /* LaunchScreen.storyboard */; };
+		8F5A85AF241A9D0100ED6764 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A85AE241A9D0100ED6764 /* Helpers.swift */; };
+		8F5A85B4241AA99800ED6764 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A85B3241AA99800ED6764 /* TestView.swift */; };
+		8F5A85B8241AF07E00ED6764 /* SpellList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A85B7241AF07E00ED6764 /* SpellList.swift */; };
+		8F5A85BB241C089000ED6764 /* MonsterListViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A85BA241C089000ED6764 /* MonsterListViewHelper.swift */; };
+		8F5A85BD241C092E00ED6764 /* MonsterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A85BC241C092E00ED6764 /* MonsterListView.swift */; };
+		8F5A85BF241C208500ED6764 /* MonsterActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A85BE241C208500ED6764 /* MonsterActionsView.swift */; };
+		8FD936D524202D75000B8540 /* SpellSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD936D424202D75000B8540 /* SpellSearch.swift */; };
+		8FD936D7242049DD000B8540 /* NewClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD936D6242049DD000B8540 /* NewClassView.swift */; };
+		8FD936D92420974E000B8540 /* RacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD936D82420974E000B8540 /* RacesView.swift */; };
+		8FD936DB24209D6B000B8540 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD936DA24209D6B000B8540 /* HomeView.swift */; };
+		8FFE00DA24369E8D0056FD1B /* WebView in Frameworks */ = {isa = PBXBuildFile; productRef = 8FFE00D924369E8D0056FD1B /* WebView */; };
+		8FFE00DC24369EB00056FD1B /* CharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE00DB24369EB00056FD1B /* CharView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		8F5A85A2241A9C1800ED6764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F5A85A5241A9C1800ED6764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F5A85A7241A9C1800ED6764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5A85AE241A9D0100ED6764 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8F5A85B3241AA99800ED6764 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		8F5A85B7241AF07E00ED6764 /* SpellList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellList.swift; sourceTree = "<group>"; };
+		8F5A85B9241B0EFB00ED6764 /* FiveETab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FiveETab.entitlements; sourceTree = "<group>"; };
+		8F5A85BA241C089000ED6764 /* MonsterListViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListViewHelper.swift; sourceTree = "<group>"; };
+		8F5A85BC241C092E00ED6764 /* MonsterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListView.swift; sourceTree = "<group>"; };
+		8F5A85BE241C208500ED6764 /* MonsterActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterActionsView.swift; sourceTree = "<group>"; };
+		8FD936D424202D75000B8540 /* SpellSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellSearch.swift; sourceTree = "<group>"; };
+		8FD936D6242049DD000B8540 /* NewClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClassView.swift; sourceTree = "<group>"; };
+		8FD936D82420974E000B8540 /* RacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesView.swift; sourceTree = "<group>"; };
+		8FD936DA24209D6B000B8540 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8FFE00DB24369EB00056FD1B /* CharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFE00DA24369E8D0056FD1B /* WebView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +81,12 @@
 		8F5A8598241A9C1600ED6764 /* FiveETab */ = {
 			isa = PBXGroup;
 			children = (
+				8F5A85B9241B0EFB00ED6764 /* FiveETab.entitlements */,
 				8F5A8599241A9C1600ED6764 /* AppDelegate.swift */,
 				8F5A859B241A9C1600ED6764 /* SceneDelegate.swift */,
-				8F5A859D241A9C1600ED6764 /* ContentView.swift */,
+				8F5A85B0241A9DD900ED6764 /* Views */,
 				8F5A859F241A9C1800ED6764 /* Assets.xcassets */,
+				8F5A85AD241A9CF600ED6764 /* Models */,
 				8F5A85A4241A9C1800ED6764 /* LaunchScreen.storyboard */,
 				8F5A85A7241A9C1800ED6764 /* Info.plist */,
 				8F5A85A1241A9C1800ED6764 /* Preview Content */,
@@ -73,6 +100,32 @@
 				8F5A85A2241A9C1800ED6764 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F5A85AD241A9CF600ED6764 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F5A85AE241A9D0100ED6764 /* Helpers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F5A85B0241A9DD900ED6764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F5A859D241A9C1600ED6764 /* ContentView.swift */,
+				8F5A85B3241AA99800ED6764 /* TestView.swift */,
+				8F5A85B7241AF07E00ED6764 /* SpellList.swift */,
+				8F5A85BA241C089000ED6764 /* MonsterListViewHelper.swift */,
+				8F5A85BC241C092E00ED6764 /* MonsterListView.swift */,
+				8F5A85BE241C208500ED6764 /* MonsterActionsView.swift */,
+				8FD936D424202D75000B8540 /* SpellSearch.swift */,
+				8FD936D6242049DD000B8540 /* NewClassView.swift */,
+				8FD936D82420974E000B8540 /* RacesView.swift */,
+				8FD936DA24209D6B000B8540 /* HomeView.swift */,
+				8FFE00DB24369EB00056FD1B /* CharView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +144,9 @@
 			dependencies = (
 			);
 			name = FiveETab;
+			packageProductDependencies = (
+				8FFE00D924369E8D0056FD1B /* WebView */,
+			);
 			productName = FiveETab;
 			productReference = 8F5A8596241A9C1600ED6764 /* FiveETab.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +158,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Brad Scott";
 				TargetAttributes = {
 					8F5A8595241A9C1600ED6764 = {
@@ -119,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 8F5A858D241A9C1600ED6764;
+			packageReferences = (
+				8FFE00D824369E8D0056FD1B /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */,
+			);
 			productRefGroup = 8F5A8597241A9C1600ED6764 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5A85B4241AA99800ED6764 /* TestView.swift in Sources */,
+				8F5A85BB241C089000ED6764 /* MonsterListViewHelper.swift in Sources */,
+				8FD936DB24209D6B000B8540 /* HomeView.swift in Sources */,
 				8F5A859A241A9C1600ED6764 /* AppDelegate.swift in Sources */,
 				8F5A859C241A9C1600ED6764 /* SceneDelegate.swift in Sources */,
+				8FD936D7242049DD000B8540 /* NewClassView.swift in Sources */,
+				8FD936D92420974E000B8540 /* RacesView.swift in Sources */,
 				8F5A859E241A9C1600ED6764 /* ContentView.swift in Sources */,
+				8FFE00DC24369EB00056FD1B /* CharView.swift in Sources */,
+				8F5A85BF241C208500ED6764 /* MonsterActionsView.swift in Sources */,
+				8F5A85AF241A9D0100ED6764 /* Helpers.swift in Sources */,
+				8F5A85B8241AF07E00ED6764 /* SpellList.swift in Sources */,
+				8FD936D524202D75000B8540 /* SpellSearch.swift in Sources */,
+				8F5A85BD241C092E00ED6764 /* MonsterListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +262,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +323,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -284,17 +356,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FiveETab/FiveETab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FiveETab/Preview Content\"";
 				DEVELOPMENT_TEAM = FE65RB45W8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FiveETab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grassrootsco.FiveETab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +379,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FiveETab/FiveETab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FiveETab/Preview Content\"";
 				DEVELOPMENT_TEAM = FE65RB45W8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FiveETab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grassrootsco.FiveETab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8FFE00D824369E8D0056FD1B /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kylehickinson/SwiftUI-WebView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8FFE00D924369E8D0056FD1B /* WebView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FFE00D824369E8D0056FD1B /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */;
+			productName = WebView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F5A858E241A9C1600ED6764 /* Project object */;
 }
